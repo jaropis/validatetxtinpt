@@ -1,4 +1,3 @@
-validatejs = function () {
   function add_validation_field(id) {
   var element = document.getElementById(id).parentElement;
   var alertElem = document.createElement('div');
@@ -25,4 +24,4 @@ validatejs = function () {
       setTimeout(waitForEl(id, runFun), 300);
     }
   }
-};
+

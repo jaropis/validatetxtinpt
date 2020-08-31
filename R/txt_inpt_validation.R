@@ -104,5 +104,7 @@ add_validation_to_input <- function(input_id) {
 #' Use it in UI of a shiny app like useShinyJS
 #' @export
 useValidateTextInput <- function() {
-  tags$script(src=system.file("srcjs/validatejs.js", package = "validatetxtinpt"), type="text/javascript")
+  tags$head(
+    tags$script(HTML(readLines(system.file("srcjs/validatejs.js", package = "validatetxtinpt"))))
+  )
 }
