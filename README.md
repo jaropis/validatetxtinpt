@@ -1,7 +1,12 @@
 # validatetxtinpt
 A small package to validate textInputs which are used instead of numericInputs right below the input itself. If the value either has incorrect format or does not satisfy a condition information in red is shown right below the input. Example below
 
-```{r}
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("jaropis/validatetxtinpt")
+```
+
+```{r, eval = FALSE}
 library(shiny)
 library(validatetxtinpt)
 ui <- fluidPage(
