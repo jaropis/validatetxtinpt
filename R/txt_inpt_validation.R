@@ -16,7 +16,6 @@ validate_text_input <- function(text_value,
     if (!is.null(condition) && eval(parse(text = paste0('!(', condition, ')')))) {
       return(incorrect_value)
     } else {
-      message(x)
       return(x)
     }
   } else {
