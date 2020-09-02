@@ -3,7 +3,7 @@ A small package to validate textInputs which are used instead of numericInputs r
 
  <img src="example1-1.png" width="467" />
  
- <img src="example1-1.png" width="467" />
+ <img src="example1-2.png" width="467" />
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
