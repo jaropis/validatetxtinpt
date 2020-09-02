@@ -1,6 +1,10 @@
 # validatetxtinpt
 A small package to validate textInputs which are used instead of numericInputs right below the input itself. If the value either has incorrect format or does not satisfy a condition information in red is shown right below the input. Example below
 
+ <img src="example1-1.png" width="467" />
+ 
+ <img src="example1-1.png" width="467" />
+
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("jaropis/validatetxtinpt")
