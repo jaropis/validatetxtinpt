@@ -27,10 +27,9 @@ ui <- fluidPage(
 )
 
 server <- function(input, output, session) {
-  ns <- session$ns
-  add_validation_to_input(ns("text_input"))
+  add_validation_to_input("text_input")
   output$text_output <- renderText({
-    validate_input(input_id = ns("text_input"),
+    validate_input(input_id = "text_input",
                    text_value = input$text_input,
                    condition = 'x >= 0 && x <= 1',
                    incorrect_format = "incorrect format: numbers and dot only",
